@@ -1,0 +1,71 @@
+/*Private Message View */
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+.online {
+	background-image: url("./images/icon_user_online.gif");
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	background-size: 40px;
+}
+.postprofile dt, .postprofile dd.profile-rank, .search .postprofile dd {
+	display: block;
+	margin: 0;
+}
+.post .postprofile {
+	border-width: 0 0 1px;
+	margin: 0 0 5px;
+	min-height: 40px;
+	overflow: hidden;
+	padding-bottom: 5px;
+	width: auto;
+}
+.postprofile, .postbody, .search .postbody {
+	display: block;
+	float: none;
+	min-height: 0;
+	padding: 0;
+	width: auto;
+}
+.has-profile .post-buttons {
+	right: 10px;
+	top: -41px;
+}
+}
+@media only screen and (max-width: 850px), only screen and (max-device-width: 850px) {
+.online {
+	background-image: url("./images/icon_user_online.gif");
+	background-position: 19% 1px;
+	background-repeat: no-repeat;
+	background-size: 42px auto;
+}
+.postprofile {
+	margin: 16px 0 0;
+}
+}
+.postprofile {
+	margin: 5px 0 10px 0;
+	min-height: 80px;
+	border: 1px solid #ffffff;
+	border-width: 0 1px 0 0;
+	width: 22%;
+	float: left;
+	display: inline;
+}
+@media only screen and (max-width: 1050px), only screen and (max-device-width: 1050px) {
+.postprofile {
+	margin: 15px 0 0;
+	width: 23%;
+}
+}
+.online {
+	background-position: 100% 0;
+	background-size: 58px;
+	background-image: url("./images/icon_user_online.gif");
+	background-position: 17.5% 1px;
+	background-repeat: no-repeat;
+}
+.postbody {
+	padding: 0;
+	line-height: 1.48em;
+	float: right;
+	position: relative;
+}
